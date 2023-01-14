@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Pagination in Reactjs
+- Pagination is really useful utility in the situation where user interface have to fetch & display a lot of data from an API
+- Directly displaying all the fetched data would cause majorly 2 problems:
+  - It would ruin the user experience & user might get lost into the pool of data
+  - There is a high chance of our website to get bloated by fetching excessive data
+- The above two problem can be solved by implementing pagination
+- ***Pagination** is all about **fetching & displaying** data in smaller chunks across various pages*
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deployment
+Checkout this React-App by clicking [here](https://react-pagination-umber.vercel.app).
 
-## Available Scripts
+# Getting Started
+## Installation
+To install this project to your local machine follow the steps mentioned just below:
 
-In the project directory, you can run:
+- Fork this repository
+- Now simple clone it to your local machine
+- Make sure you are in correct directory i.e. inside `react-pagination`
+- Install all the dependencies of the project by running `npm install` into your terminal
 
-### `npm start`
+## Running the project locally
+After successful installation you are just a step away from running it locally
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Run `npm start` to run react-scripts
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Now you have done with installation & running the project to your local machine, *feel free to contribute to the project* 🤗
